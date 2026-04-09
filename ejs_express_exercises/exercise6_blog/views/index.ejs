@@ -1,0 +1,4 @@
+<a href="/new">New Post</a>
+<% posts.forEach((p,i)=>{ %>
+  <a href="/post/<%= i %>"><%= p.title %></a><br/>
+<% }) %>
