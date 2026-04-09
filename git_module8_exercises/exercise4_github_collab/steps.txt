@@ -1,0 +1,9 @@
+Exercise 4: GitHub Collaboration
+
+1. Fork repo on GitHub
+2. git clone <your-fork-url>
+3. git checkout -b new-feature
+4. git add .
+5. git commit -m "changes"
+6. git push origin new-feature
+7. Open Pull Request on GitHub

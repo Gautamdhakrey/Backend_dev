@@ -1,0 +1,18 @@
+Exercise 3: Conflict Resolution
+
+git checkout -b branch1
+# edit file
+git commit -am "branch1 change"
+
+git checkout main
+git checkout -b branch2
+# edit same line
+git commit -am "branch2 change"
+
+git checkout main
+git merge branch1
+git merge branch2  # conflict
+
+# manually fix file
+git add .
+git commit -m "resolved conflict"
